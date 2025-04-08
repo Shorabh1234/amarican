@@ -1,0 +1,67 @@
+:root {
+  --fs-xs: 13px;
+  --fs-sm: 14px;
+  --fs-md: 15px;
+  --fs-lg: 19px;
+  --fs-xl: 22px;
+  --fs-xxl: 50px;
+
+  --color: #fff;
+  --color-dark-red: #9a002b;
+  --color-navy-blue: #0c1957;
+  --color-primary: #ea0041;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+}
+/* font size */
+.fs-xs {
+  font-size: var(--fs-xs);
+}
+.fs-sm {
+  font-size: var(--fs-sm);
+}
+.fs-md {
+  font-size: var(--fs-md);
+}
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+.fs-xxl {
+  font-size: var(--fs-xxl);
+}
+/* font weight */
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+.fw-semibold {
+  font-weight: var(--fw-semibold);
+}
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+.fw-extrabold {
+  font-weight: var(--fw-extrabold);
+}
+/* color */
+.text-white {
+  color: var(--color);
+}
+.text-dark-red {
+  color: var(--color-dark-red);
+}
+.text-navy-blue {
+  color: var(--color-navy-blue);
+}
+.text-pink-red {
+  color: var(--color-pink-red);
+}

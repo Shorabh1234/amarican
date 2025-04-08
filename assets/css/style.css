@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: none;
+  list-style-type: none;
+}
+body{
+  font-family: Inter;
+}
+.american_logo {
+  width: 265px;
+  height: 34px;
+}
+
+.bg-img{
+  background-image: url(/assets/Images/png/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 768px;
+}
+.nav-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 33px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+height: 18px;
+}
+.button-nav{
+  width: 200px;
+  border: none;
+height: 51px;
+border-radius: 50px;
+background: #EA0041;
+cursor: pointer;
+}
+.button-nav:hover{
+  color: #ea0041;
+  background-color: white;
+  border: #EA0041,2px,solid;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.security{
+
+padding-top: 128px;
+}
+.hero-your-trusted{
+ 
+padding-top: 35px;
+line-height: 21px; 
+width: 567px;
+height: 118px;
+}
+
+.button-hero{
+  border-radius: 50px;
+background: #EA0041;
+width: 291px;
+height: 51px;
+border: none;
+text-transform: uppercase;
+
+}
+.button-hero:hover{
+  color: #ea0041;
+  background-color: white;
+  border: #EA0041,2px,solid;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.hero-text{
+  padding-left: 100px;
+}
+
+.hero-expert{
+padding-top: 21px;
+width: 599px;
+height: 211px;
+
+}
+
+.service-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  background-color: #ea0041;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.how-we-do-it{
+  color: #0C1957;
+text-align: center;
+padding-top: 70px;
+}
+
+.service{
+  color: #0C1957;
+text-align: center;
+padding-top: 6px;
+}
+
+.service-card h3 {
+  color: #0c1957;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card-main{
+  display: flex;
+  padding-top: 39px;
+  display: flex;
+justify-content: center;
+ justify-content: space-between;
+ margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.main{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.service-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.service-list li {
+color: #0C1957;
+}
+.blue{
+    background-image: url(/assets/Images/png/blue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 315px;
+  margin-top: 115px;
+}
+.business{
+width: 775px;
+line-height: 50px;
+
+}
+.button{
+  border-radius: 50px;
+background: #EA0041;
+width: 200px;
+height: 51px;
+color: #FFF;
+font-family: Inter;
+text-transform: uppercase;
+border: none;
+}
+.button:hover{
+  color: #ea0041;
+  background-color: white;
+  border: #EA0041,2px,solid;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.blue-main{
+  display: flex; 
+  align-items: center;
+  justify-items: center;
+ padding-top: 89px;
+max-width: 1200px;
+width: 100%;
+margin: auto;
+justify-content: space-between;
+ 
+}
+/* <core values> */
+.core-card-main{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ row-gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+margin: auto;
+  margin-top: 50px;
+}
+.core-values{
+  margin-top: 80px;
+  text-align: center;
+}
+.people-focused{
+  margin-bottom: 5px;
+
+}
+.card {
+  position: relative;
+  width: 350px;
+  padding: 60px 20px 20px;
+  border: 1px solid #000C3F;
+  border-radius: 4px;
+ 
+}
+.card-text{
+  line-height:20px;
+  text-align: start;
+}
+.img1 {
+  width: 30px;
+  height: 30px;
+}
+.img1 {
+  position: absolute;
+  top: -30px;
+  left:25%;
+  transform: translateX(-50%);
+  background-color: #E5003F;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /* Download your free Cybersecurity
+                  Risk self-assessment. */
+                  .red{
+                    background: #EA0041;
+                    width: 100%;
+                    margin-top: 104px;
+height: 784px;
+
+                  }
+.Download{
+ margin: auto;
+ padding-top: 74px;
+text-align: center;
+line-height: 50px; 
+width: 901px;
+
+
+}
+.here-is-your{
+text-align: center;
+line-height: 21px; 
+width: 734px;
+margin: auto;
+}
+.main-text{
+  display: flex;
+  flex-direction: column;
+gap: 20px;
+  align-items: center;
+  justify-items: center;
+ 
+}
+.dowload-now{
+width: 216px;
+height: 51px;
+border-radius: 50px;
+background: #0C1957;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+}
+.dowload-now:hover{
+  background: #fff;
+  color: #0C1957;
+  border: #0c1957,2px,solid;
+  transition-duration: 500ms;
+}
+.book{
+  padding-top:28px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
