@@ -132,14 +132,20 @@ padding-top: 6px;
   margin-bottom: 20px;
 }
 .card-main{
-  display: flex;
-  padding-top: 39px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 39px 16px;
   display: flex;
 justify-content: center;
- justify-content: space-between;
+gap: 25px;
  margin: auto;
   max-width: 1200px;
   width: 100%;
+}
+.red-logo{
+  width: 94px;
+  height: 94px;
+  
 }
 .main{
   display: flex;
@@ -354,3 +360,60 @@ margin-top: 72px;
 }
 
 
+@media screen and (max-width: 1024px) {
+  .card-main{
+    display: grid;
+  grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+     width: 20px;
+  }
+  .red-logo{
+    width: 70px;
+    height: 70px;
+  }
+  .how-we-do-it{
+    padding-top: 50px;
+   
+  }
+ 
+  
+
+  
+}
+
+
+@media screen and (max-width: 1240px) {
+.blue{
+  padding: 20px 16px;
+ margin-top: 80px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+   .service-card{
+    width: 250px;
+    padding: 10px 16px;
+   }
+     .how-we-do-it{
+    padding-top: 30px;
+  
+  }
+
+
+ 
+}
+
+@media screen and (max-width:576px) {
+   .card-main{
+    display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+   }
+
+  }

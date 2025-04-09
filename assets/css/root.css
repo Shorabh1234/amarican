@@ -65,3 +65,13 @@
 .text-pink-red {
   color: var(--color-pink-red);
 }
+
+
+
+@media (max-width:768px) {
+    .fs-xxl{
+      font-size: 40px;
+    }
+  
+  }
+ 
